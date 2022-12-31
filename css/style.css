@@ -70,7 +70,7 @@ input[type="checkbox"]{
     top: 80px;
     left: -100%;
     background: #bcaaa4;
-    height: 60vh;
+    height: 100vh;
     width: 100%;
     text-align: center;
     display: block;
@@ -156,7 +156,7 @@ input[type="checkbox"]{
   border-radius: 50%;
   background: #fff;
   cursor:pointer;
-  margin:0 .2rem;
+  margin:0 .3rem;
 }
 .home .controls .vid-btn.active{
   background: #f33c3c;
@@ -256,7 +256,7 @@ body{
 }
 .blog-text a.btn{
   width:100px;
-  height:30px;
+  height:26px;
   background:#795548;
   color:white;
   text-align: center;
