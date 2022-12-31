@@ -114,15 +114,23 @@ input[type="checkbox"]{
   text-align: center;
 }
 .home .content h3{
-  font-size: 2.5rem;
+  font-size: 3rem;
   color:#fff;
   text-transform: uppercase;
   text-shadow: 0 .3rem .5rem rgba(0,0,0,.1);
 }
 .home .content p{
-  font-size: 1.5rem;
+  font-size: 2rem;
   color:#fff;
   padding: .5rem 0;
+}
+.home .content a{
+  color:white;
+  background: #795548;
+  text-decoration: none;
+  font-size: 28px;
+  border-radius: 10px;
+  padding:6px;
 }
 .home .video-container img{
   position: absolute;
@@ -131,12 +139,13 @@ input[type="checkbox"]{
   height:100%;
   width:100%;
   object-fit: cover;
-  background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+  background: linear-gradient(rgb(0,0,0),rgb(0,0,0)); 
+  opacity: 0.8;
 }
 .home .controls{
   padding: .5rem;
   border-radius: 5rem;
-  background: rgba(0,0,0,0.7);
+  background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)); 
   position: relative;
   top:40px;
 }
@@ -150,7 +159,7 @@ input[type="checkbox"]{
   margin:0 .5rem;
 }
 .home .controls .vid-btn.active{
-  background: red;
+  background: #f33c3c;
 }
 @media(max-width:991px){
   section .home{
